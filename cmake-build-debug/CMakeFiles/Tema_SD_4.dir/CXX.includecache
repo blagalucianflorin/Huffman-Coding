@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lblaga/CLionProjects/Tema SD 4/huffman.h
+map
+-
+string
+-
+vector
+-
+algorithm
+-
+
+/home/lblaga/CLionProjects/Tema SD 4/main.cpp
+iostream
+-
+string
+-
+huffman.h
+/home/lblaga/CLionProjects/Tema SD 4/huffman.h
+

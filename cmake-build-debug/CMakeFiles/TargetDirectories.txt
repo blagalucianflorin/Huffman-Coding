@@ -1,0 +1,3 @@
+/home/lblaga/CLionProjects/Tema SD 4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lblaga/CLionProjects/Tema SD 4/cmake-build-debug/CMakeFiles/Tema_SD_4.dir
+/home/lblaga/CLionProjects/Tema SD 4/cmake-build-debug/CMakeFiles/edit_cache.dir
