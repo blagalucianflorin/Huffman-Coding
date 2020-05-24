@@ -82,13 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lblaga/CLionProjects/Tema SD 4/huffman.cpp">
-			<Option target="Tema_SD_4"/>
-		</Unit>
-		<Unit filename="/home/lblaga/CLionProjects/Tema SD 4/huffman.h">
+		<Unit filename="/home/lblaga/CLionProjects/Tema SD 4/headers/huffman.h">
 			<Option target="Tema_SD_4"/>
 		</Unit>
 		<Unit filename="/home/lblaga/CLionProjects/Tema SD 4/main.cpp">
+			<Option target="Tema_SD_4"/>
+		</Unit>
+		<Unit filename="/home/lblaga/CLionProjects/Tema SD 4/sources/huffman.cpp">
 			<Option target="Tema_SD_4"/>
 		</Unit>
 		<Unit filename="/home/lblaga/CLionProjects/Tema SD 4/CMakeLists.txt">

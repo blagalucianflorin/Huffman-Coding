@@ -6,14 +6,18 @@
 
 #IncludeRegexTransform: 
 
-/home/lblaga/CLionProjects/Tema SD 4/huffman.h
+/home/lblaga/CLionProjects/Tema SD 4/headers/huffman.h
 map
 -
 string
 -
+utility
+-
 vector
 -
 algorithm
+-
+utility
 -
 
 /home/lblaga/CLionProjects/Tema SD 4/main.cpp
@@ -21,6 +25,10 @@ iostream
 -
 string
 -
-huffman.h
-/home/lblaga/CLionProjects/Tema SD 4/huffman.h
+headers/huffman.h
+/home/lblaga/CLionProjects/Tema SD 4/headers/huffman.h
+
+/home/lblaga/CLionProjects/Tema SD 4/sources/huffman.cpp
+../headers/huffman.h
+/home/lblaga/CLionProjects/Tema SD 4/headers/huffman.h
 

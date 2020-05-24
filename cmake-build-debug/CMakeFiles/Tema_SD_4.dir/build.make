@@ -70,29 +70,29 @@ CMakeFiles/Tema_SD_4.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tema_SD_4.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lblaga/CLionProjects/Tema SD 4/main.cpp" -o CMakeFiles/Tema_SD_4.dir/main.cpp.s
 
-CMakeFiles/Tema_SD_4.dir/huffman.cpp.o: CMakeFiles/Tema_SD_4.dir/flags.make
-CMakeFiles/Tema_SD_4.dir/huffman.cpp.o: ../huffman.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lblaga/CLionProjects/Tema SD 4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tema_SD_4.dir/huffman.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tema_SD_4.dir/huffman.cpp.o -c "/home/lblaga/CLionProjects/Tema SD 4/huffman.cpp"
+CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.o: CMakeFiles/Tema_SD_4.dir/flags.make
+CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.o: ../sources/huffman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lblaga/CLionProjects/Tema SD 4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.o -c "/home/lblaga/CLionProjects/Tema SD 4/sources/huffman.cpp"
 
-CMakeFiles/Tema_SD_4.dir/huffman.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tema_SD_4.dir/huffman.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lblaga/CLionProjects/Tema SD 4/huffman.cpp" > CMakeFiles/Tema_SD_4.dir/huffman.cpp.i
+CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lblaga/CLionProjects/Tema SD 4/sources/huffman.cpp" > CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.i
 
-CMakeFiles/Tema_SD_4.dir/huffman.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tema_SD_4.dir/huffman.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lblaga/CLionProjects/Tema SD 4/huffman.cpp" -o CMakeFiles/Tema_SD_4.dir/huffman.cpp.s
+CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lblaga/CLionProjects/Tema SD 4/sources/huffman.cpp" -o CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.s
 
 # Object files for target Tema_SD_4
 Tema_SD_4_OBJECTS = \
 "CMakeFiles/Tema_SD_4.dir/main.cpp.o" \
-"CMakeFiles/Tema_SD_4.dir/huffman.cpp.o"
+"CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.o"
 
 # External object files for target Tema_SD_4
 Tema_SD_4_EXTERNAL_OBJECTS =
 
 Tema_SD_4: CMakeFiles/Tema_SD_4.dir/main.cpp.o
-Tema_SD_4: CMakeFiles/Tema_SD_4.dir/huffman.cpp.o
+Tema_SD_4: CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.o
 Tema_SD_4: CMakeFiles/Tema_SD_4.dir/build.make
 Tema_SD_4: CMakeFiles/Tema_SD_4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lblaga/CLionProjects/Tema SD 4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Tema_SD_4"

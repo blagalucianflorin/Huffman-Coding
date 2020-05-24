@@ -7,8 +7,10 @@
 
 #include <map>
 #include <string>
+#include <utility>
 #include <vector>
 #include <algorithm>
+#include <utility>
 
 
 class Huffman
@@ -45,17 +47,17 @@ private:
     void decode_aux (const node &curr_node, std::string &curr_string, std::string &output_string);
 
 public:
-    std::string &code (const std::string &input);
+    std::string code (const std::string &input);
 
     std::string decode (std::string output);
 
-    void set_huff_tree (node &my_tree);
+    inline void set_huff_tree (node &my_tree) { this -> huff_tree = &my_tree; };
 
-    node get_huff_tree () const;
+    inline node get_huff_tree () const { return (*(this -> huff_tree)); };
 
-    void set_codes (std::map <char, std::string> my_codes);
+    inline void set_codes (std::map <char, std::string> my_codes) { this -> codes = std::move(my_codes); };
 
-    std::map <char, std::string> get_codes () const;
+    inline std::map <char, std::string> get_codes () const { return (this -> codes); };
 };
 
 #endif //TEMA_SD_4_HUFFMAN_H

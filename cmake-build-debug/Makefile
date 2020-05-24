@@ -123,33 +123,6 @@ Tema_SD_4/fast:
 	$(MAKE) -f CMakeFiles/Tema_SD_4.dir/build.make CMakeFiles/Tema_SD_4.dir/build
 .PHONY : Tema_SD_4/fast
 
-huffman.o: huffman.cpp.o
-
-.PHONY : huffman.o
-
-# target to build an object file
-huffman.cpp.o:
-	$(MAKE) -f CMakeFiles/Tema_SD_4.dir/build.make CMakeFiles/Tema_SD_4.dir/huffman.cpp.o
-.PHONY : huffman.cpp.o
-
-huffman.i: huffman.cpp.i
-
-.PHONY : huffman.i
-
-# target to preprocess a source file
-huffman.cpp.i:
-	$(MAKE) -f CMakeFiles/Tema_SD_4.dir/build.make CMakeFiles/Tema_SD_4.dir/huffman.cpp.i
-.PHONY : huffman.cpp.i
-
-huffman.s: huffman.cpp.s
-
-.PHONY : huffman.s
-
-# target to generate assembly for a file
-huffman.cpp.s:
-	$(MAKE) -f CMakeFiles/Tema_SD_4.dir/build.make CMakeFiles/Tema_SD_4.dir/huffman.cpp.s
-.PHONY : huffman.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Tema_SD_4.dir/build.make CMakeFiles/Tema_SD_4.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sources/huffman.o: sources/huffman.cpp.o
+
+.PHONY : sources/huffman.o
+
+# target to build an object file
+sources/huffman.cpp.o:
+	$(MAKE) -f CMakeFiles/Tema_SD_4.dir/build.make CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.o
+.PHONY : sources/huffman.cpp.o
+
+sources/huffman.i: sources/huffman.cpp.i
+
+.PHONY : sources/huffman.i
+
+# target to preprocess a source file
+sources/huffman.cpp.i:
+	$(MAKE) -f CMakeFiles/Tema_SD_4.dir/build.make CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.i
+.PHONY : sources/huffman.cpp.i
+
+sources/huffman.s: sources/huffman.cpp.s
+
+.PHONY : sources/huffman.s
+
+# target to generate assembly for a file
+sources/huffman.cpp.s:
+	$(MAKE) -f CMakeFiles/Tema_SD_4.dir/build.make CMakeFiles/Tema_SD_4.dir/sources/huffman.cpp.s
+.PHONY : sources/huffman.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Tema_SD_4"
 	@echo "... edit_cache"
-	@echo "... huffman.o"
-	@echo "... huffman.i"
-	@echo "... huffman.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sources/huffman.o"
+	@echo "... sources/huffman.i"
+	@echo "... sources/huffman.s"
 .PHONY : help
 
 

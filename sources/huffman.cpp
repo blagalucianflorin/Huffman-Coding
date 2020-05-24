@@ -4,8 +4,6 @@
 
 #include "../headers/huffman.h"
 
-#include <utility>
-
 
 Huffman::node::node (const Huffman::node &old_node)
 {
@@ -74,7 +72,7 @@ void Huffman::generate_codes_aux (const Huffman::node &curr_node, const std::str
     generate_codes_aux (*(curr_node . right), curr_string + "1", codes);
 }
 
-std::string &Huffman::code (const std::string &input)
+std::string Huffman::code (const std::string &input)
 {
     auto frequencies_map = get_frequencies (input);
     std::vector <std::pair <char, unsigned int>> frequencies_vector;
@@ -121,24 +119,4 @@ void Huffman::decode_aux (const Huffman::node &curr_node, std::string &curr_stri
         curr_string = curr_string . substr (1, curr_string . size () - 1);
         decode_aux (*(curr_node . right), curr_string, output_string);
     }
-}
-
-void Huffman::set_huff_tree (Huffman::node &my_tree)
-{
-    this -> huff_tree = &my_tree;
-}
-
-Huffman::node Huffman::get_huff_tree () const
-{
-    return (*(this -> huff_tree));
-}
-
-void Huffman::set_codes (std::map <char, std::string> my_codes)
-{
-    this -> codes = std::move(my_codes);
-}
-
-std::map <char, std::string> Huffman::get_codes () const
-{
-    return (this -> codes);
 }

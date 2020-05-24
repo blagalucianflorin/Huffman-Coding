@@ -13,7 +13,6 @@ int main ()
     std::string coded = huff . code (input);
     std::cout << "Coded String: " << coded << "\n\n";
 
-
     std::string decoded = huff . decode (coded);
     std::cout << "Decoded String: "<< decoded << "\n\n";
 
